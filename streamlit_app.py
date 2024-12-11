@@ -53,7 +53,7 @@ if uploaded_file is not None:
         img_rotated = rotate_image(img, rotation_angle)
     else:
         # Automatic rotation
-        rotation_angle = st.selectbox("Select Rotation Angle", [45, 90, 135, 180, 225, 270, 315, 360])
+        rotation_angle = st.selectbox("Select Rotation Angle", [0, 45, 90, 135, 180, 225, 270, 315, 360])
         img_rotated = rotate_image(img, rotation_angle)
 
     st.image(img_rotated, caption="Rotated Image", use_container_width=True)
