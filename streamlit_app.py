@@ -39,7 +39,7 @@ if menu == "Home":
     st.title("Selamat Datang di Aplikasi Image Editor")
     st.write("Aplikasi ini dirancang untuk membantu Anda mengedit gambar dengan mudah dan cepat.")
 
-    st.subheader("Anggota Kelompok 6")
+    st.subheader("Anggota Kelompok 4")
     st.write("Berikut adalah anggota kelompok pembuat aplikasi ini:")
 
     col1, col2, col3 = st.columns(3)
