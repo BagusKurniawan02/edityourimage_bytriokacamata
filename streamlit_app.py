@@ -127,8 +127,8 @@ elif menu == "Anggota Kelompok":
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.image("foto beric.jpg", width=200, caption="Bagus Eric Kurniawan")
+        st.image("foto beric.jpg", caption="Bagus Eric Kurniawan")
     with col2:
-        st.image("foto mbintang.jpg", width=200, caption="Muchamad Ilham Bintang")
+        st.image("foto mbintang.jpg", caption="Muchamad Ilham Bintang")
     with col3:
-        st.image("foto mrafi2.jpg", width=236, caption="Muhammad Rafi Fauzan")
+        st.image("foto mrafi2.jpg", caption="Muhammad Rafi Fauzan")
