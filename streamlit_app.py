@@ -45,11 +45,11 @@ if menu == "Home & Anggota Kelompok":
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.image("/mnt/data/foto beric.jpg", caption="Bagus Eric Kurniawan")
+        st.image("foto beric.jpg", caption="Bagus Eric Kurniawan")
     with col2:
-        st.image("/mnt/data/foto mbintang.jpg", caption="Muchamad Ilham Bintang")
+        st.image("foto mbintang.jpg", caption="Muchamad Ilham Bintang")
     with col3:
-        st.image("/mnt/data/foto mrafi.jpg", caption="Muhammad Rafi Fauzan")
+        st.image("foto mrafi2.jpg", caption="Muhammad Rafi Fauzan")
 
 elif menu == "Image Editor":
     st.image("https://graduation.president.ac.id/assets/logo.png", width=500)
