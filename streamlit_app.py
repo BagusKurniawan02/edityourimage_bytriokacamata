@@ -49,7 +49,7 @@ if menu == "Home":
     with col2:
         st.image("foto mbintang.jpg", caption="Muchamad Ilham Bintang")
     with col3:
-        st.image("foto mrafi.jpg", caption="Muhammad Rafi Fauzan")
+        st.image("foto mrafi2.jpg", caption="Muhammad Rafi Fauzan")
 
 elif menu == "Image Editor":
     st.image("https://graduation.president.ac.id/assets/logo.png", width=500)
