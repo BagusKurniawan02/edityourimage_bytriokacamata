@@ -32,7 +32,7 @@ def convert_image_to_bytes(img, format_type):
 
 # Layout Streamlit
 st.sidebar.title("Menu")
-menu = st.sidebar.radio("Pilih Halaman", ["Home & Anggota Kelompok", "Image Editor"])
+menu = st.sidebar.radio("Pilih Halaman", ["Home", "Image Editor"])
 
 if menu == "Home":
     st.image("https://graduation.president.ac.id/assets/logo.png", width=500)
