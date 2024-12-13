@@ -131,4 +131,4 @@ elif menu == "Anggota Kelompok":
     with col2:
         st.image("foto mbintang.jpg", width=200, caption="Muchamad Ilham Bintang")
     with col3:
-        st.image("foto mrafi2.jpg", width=200, caption="Muhammad Rafi Fauzan")
+        st.image("foto mrafi2.jpg", width=300, caption="Muhammad Rafi Fauzan")
