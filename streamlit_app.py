@@ -32,12 +32,24 @@ def convert_image_to_bytes(img, format_type):
 
 # Layout Streamlit
 st.sidebar.title("Menu")
-menu = st.sidebar.radio("Pilih Halaman", ["Home", "Image Editor", "Anggota Kelompok"])
+menu = st.sidebar.radio("Pilih Halaman", ["Home & Anggota Kelompok", "Image Editor"])
 
-if menu == "Home":
+if menu == "Home & Anggota Kelompok":
     st.image("https://graduation.president.ac.id/assets/logo.png", width=500)
     st.title("Selamat Datang di Aplikasi Image Editor")
     st.write("Aplikasi ini dirancang untuk membantu Anda mengedit gambar dengan mudah dan cepat.")
+
+    st.subheader("Anggota Kelompok")
+    st.write("Berikut adalah anggota kelompok pembuat aplikasi ini:")
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.image("/mnt/data/foto beric.jpg", caption="Bagus Eric Kurniawan")
+    with col2:
+        st.image("/mnt/data/foto mbintang.jpg", caption="Muchamad Ilham Bintang")
+    with col3:
+        st.image("/mnt/data/foto mrafi.jpg", caption="Muhammad Rafi Fauzan")
 
 elif menu == "Image Editor":
     st.image("https://graduation.president.ac.id/assets/logo.png", width=500)
@@ -118,17 +130,3 @@ elif menu == "Image Editor":
             file_name="edited_image.pdf",
             mime="application/pdf"
         )
-
-elif menu == "Anggota Kelompok":
-    st.image("https://graduation.president.ac.id/assets/logo.png", width=500)
-    st.title("Anggota Kelompok")
-    st.write("Berikut adalah anggota kelompok pembuat aplikasi ini:")
-
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        st.image("foto beric.jpg", caption="Bagus Eric Kurniawan")
-    with col2:
-        st.image("foto mbintang.jpg", caption="Muchamad Ilham Bintang")
-    with col3:
-        st.image("foto mrafi2.jpg", caption="Muhammad Rafi Fauzan")
