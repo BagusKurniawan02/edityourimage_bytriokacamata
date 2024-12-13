@@ -34,7 +34,7 @@ def convert_image_to_bytes(img, format_type):
 st.sidebar.title("Menu")
 menu = st.sidebar.radio("Pilih Halaman", ["Home & Anggota Kelompok", "Image Editor"])
 
-if menu == "Home & Anggota Kelompok":
+if menu == "Home":
     st.image("https://graduation.president.ac.id/assets/logo.png", width=500)
     st.title("Selamat Datang di Aplikasi Image Editor")
     st.write("Aplikasi ini dirancang untuk membantu Anda mengedit gambar dengan mudah dan cepat.")
